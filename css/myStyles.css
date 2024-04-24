@@ -1,0 +1,46 @@
+nav{
+    background-color: lightgray;
+    overflow: hidden;
+}
+nav a{
+    float:left;
+    padding:10px 13px;
+    text-decoration: none;
+    color:#333;
+    font-size: 16px;
+    font-weight: bold;
+}
+.title{
+    background-color: black; color:whitesmoke
+}
+.body{
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(236, 240, 240);
+}
+.common{
+    text-align: center;
+}
+nav a:hover{
+    background-color: #ccc;
+}
+ul{
+    list-style-position: inside;
+
+}
+ol{
+    list-style-position: inside;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+}
+.video{
+    text-align: center;
+}
+.footer{
+    background-color: lightgray;
+    height: 25px; bottom:0px; position: fixed; left: 5px; right: 5px;
+}
